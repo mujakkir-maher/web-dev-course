@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDHunt</title>
+</head>
+<body>
+    <!-- header section -->
+     <header>
+        <h1>Student Developer hunt</h1>
+        <p>Academic Journey | Programming skills | Projects</p>
+     </header>
+
+     <!-- navigetion -->
+      <nav>
+        <!-- internal page jump using id -->
+         <a href="#about">About</a>
+         <a href="#courses">Courses</a>
+         <a href="#projects">Projects</a>
+         <a href="#media">Media</a>
+         <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- main content -->
+       <main>
+        <!-- about secton -->
+         <section id="about">
+            <h2>About me</h2>
+            <figure>
+                <img src="FB_IMG_17313440078582661.jpg" alt="Student photo" width="200">
+                <figcaption>My academic Profile</figcaption>
+            </figure>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit illum temporibus neque asperiores ipsum, itaque ducimus rem suscipit explicabo quo.
+            </p>
+            <details>
+                <summary> click to see achievement</summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam modi voluptatem molestiae perferendis, aspernatur laudantium autem blanditiis aut quis!</p>
+            </details>
+            <h3>Technologies</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</dd>
+                <dt>C++</dt>
+                <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</dd>
+            </dl>
+         </section>
+
+         <section id="courses">
+            <h2>Completed courses</h2>
+            <!-- table -->
+             <table border="">
+                <caption>Academic Courses</caption>
+                <tr>
+                    <td>Course</td>
+                    <td>Status</td>
+                    <td>Year</td>
+                </tr>
+                <tr>
+                    <td>Data structure</td>
+                    <td>Completd</td>
+                    <td>2062</td>
+                </tr>
+                <tr>
+                    <td>OOP</td>
+                    <td>Failed</td>
+                    <td>infinite</td>
+                </tr>
+             </table>
+             <h3>Skill level</h3>
+             <label for="">c++</label>
+             <progress value="55" max="100"></progress>
+             <br><br>
+             <label for="">HTML</label>
+             <progress value="70" max="100"></progress>
+         </section>
+
+          <!-- ===== PROJECTS SECTION ===== -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <!-- Article represents independent content -->
+            <article>
+                <h3>ATM System (C Project)</h3>
+                <p>Simulation of ATM operations including password change feature.</p>
+            </article>
+
+            <article>
+                <h3>Problem Archive</h3>
+                <p>Collection of solved competitive programming problems.</p>
+            </article>
+
+            <!-- Nested list -->
+            <h3>Future Goals</h3>
+            <ol>
+                <li>Frontend
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </li>
+                <li>Backend</li>
+            </ol>
+        </section>
+
+
+
+        <!-- ===== MEDIA SECTION ===== -->
+        <section id="media">
+            <h2>Media</h2>
+
+            <!-- Video with multiple sources -->
+            <video controls width="300">
+                <source src="sample.mp4" type="video/mp4">
+                <source src="sample.ogg" type="video/ogg">
+                Your browser does not support video.
+            </video>
+
+            <br><br>
+
+            <!-- Audio -->
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+
+            <br><br>
+
+            <!-- YouTube iframe embed -->
+            <iframe width="300" height="200"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+            </iframe>
+        </section>
+
+
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form>
+
+                <!-- Text input -->
+                <label>Name:</label>
+                <input type="text"><br><br>
+
+                <!-- Email input -->
+                <label>Email:</label>
+                <input type="email"><br><br>
+
+                <!-- Radio buttons -->
+                <label>Gender:</label>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <br><br>
+
+                <!-- Checkbox -->
+                <label>Skills:</label>
+                <input type="checkbox"> HTML
+                <input type="checkbox"> C++
+                <br><br>
+
+                <!-- Dropdown -->
+                <label>Department:</label>
+                <select>
+                    <option>CSE</option>
+                    <option>EEE</option>
+                    <option>BBA</option>
+                </select>
+                <br><br>
+
+                <!-- Textarea -->
+                <label>Message:</label><br>
+                <textarea rows="4" cols="30"></textarea>
+                <br><br>
+
+                <!-- File upload -->
+                <label>Upload CV:</label>
+                <input type="file">
+                <br><br>
+
+                <!-- Submit button -->
+                <input type="submit" value="Send">
+            </form>
+        </section>
+       </main>
+</body>
+</html>
