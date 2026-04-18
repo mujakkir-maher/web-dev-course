@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <h3>topic 01: video</h3>
+    <p>attributes of videos are given velow</p>
+    <p>
+        src → ভিডিও ফাইলের path নির্ধারণ করে <br>
+
+controls → play, pause, volume ইত্যাদি control button দেখায় <br>
+
+autoplay → page load হলে ভিডিও নিজে থেকে চালু হয় <br>
+
+muted → ভিডিওর sound বন্ধ থাকে <br>
+
+loop → ভিডিও শেষ হলে আবার শুরু হয় <br>
+
+poster → ভিডিও শুরু হওয়ার আগে thumbnail image দেখায় <br>
+
+width → ভিডিওর প্রস্থ নির্ধারণ করে<br>
+
+height → ভিডিওর উচ্চতা নির্ধারণ করে<br>
+
+preload → ভিডিও কতটুকু আগে থেকে load হবে (auto, metadata, none) <br>
+
+playsinline → mobile-এ fullscreen না হয়ে inline-এ play করে <br>
+
+crossorigin → অন্য domain থেকে ভিডিও লোড করলে CORS নিয়ন্ত্রণ করে <br>
+
+controlslist → নির্দিষ্ট control (যেমন download) hide করতে ব্যবহৃত হয় <br>
+    </p>
+    agamikaal kar koyta meal hobe? <br>
+    <video src="shimul_pagla.mp4" width="220" controls></video>
+
+    <h3> topic 02: audio</h3>
+    <audio src="sound.mp3">your audio is here.</audio>
+    <p>no audio found</p>
+    <p>
+        attributes of audio are given below
+    </p>
+    <p>
+        src → Audio file-এর path <br>
+
+controls → Play/Pause/Volume button দেখায় <br>
+
+autoplay → Page load হলে নিজে থেকে play শুরু করে <br>
+
+muted → Sound বন্ধ থাকবে <br>
+
+loop → Audio শেষ হলে আবার শুরু হবে <br>
+
+preload → আগে থেকে কতটুকু load হবে (auto, metadata, none) <br>
+more ab0ut preload: HTML-এর preload attribute হলো audio এবং video tag-এর জন্য ব্যবহৃত একটি attribute যা browser-কে নির্দেশ দেয় page load-এর সময় ভিডিও বা অডিও কতটুকু আগে থেকে load করবে। <br>
+<div>
+    none : কোনো data load করা হবে না। শুধুমাত্র play করলে load হবে।
+  fastest load, bandwidth save
+</div>
+<div>
+    metadata : শুধুমাত্র media-এর metadata load হবে (duration, dimensions, tracks)।
+</div>
+<div>
+    auto : browser চেষ্টা করবে পুরো media load করতে।
+</div>
+<br>
+crossorigin → অন্য domain থেকে audio load করলে CORS নিয়ন্ত্রণ <br>
+    </p>
+    <h3>
+        topic 03: SVG
+    </h3>
+    <p>
+        SVG: একটি vector graphics format যা 2D graphics (shape, line, curve, text, icons) তৈরি করতে ব্যবহৃত হয় এবং scale করলে quality হারায় না।
+    </p>
+    <h3>topic 04: iFrame</h3>
+    <p>
+        iframe (Inline Frame):
+এটি মূল page-এর ভিতরে একটি "window" তৈরি করে, যেখান থেকে অন্য URL load করা যায়।
+    </p>
+   <iframe src="https://en.wikipedia.org/wiki/HTML" width="600" height="400"></iframe>
+   <br>
+</body>
+</html>

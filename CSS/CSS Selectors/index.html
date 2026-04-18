@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selector</title>
+    <style>
+        /* element selector */
+        div{
+            background-color: red;
+        }
+
+        /* class selector */
+        .red{
+            background-color: red;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        /* id selector */
+        #green{
+            background-color: green;
+        }
+
+        /* child selector */
+        div>p{
+            color: rgb(24, 52, 3);
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="red">
+        I am a body
+        <p>Im a paragraph inside div</p>
+    </div>
+    <div class="yellow">
+        im also a body part
+    </div>
+    <div id="green">
+        im for id selector
+    </div>
+</body>
+</html>
